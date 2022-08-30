@@ -8,12 +8,25 @@ function AuthContext() {
     const [error, setError] = useState("null");
     const [loading, setLoading  ] = useState("false");
     const [user, setUser  ] = useState("null");
+    // signup funcyion
+    const authRegister=async(username,email,password) =>{
+await fetch(url,{
+  method:"POST"
+});
+
+
+  
+
+}
+
+    }
+  
 
   return (
     <div>
     
     </div>
   )
-}
+
 
 export default AuthContext
